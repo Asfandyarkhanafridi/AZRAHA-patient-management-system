@@ -42,4 +42,8 @@ Route::put('profile', [ProfileController::class, 'update'])->name('profile.updat
 
 //Patients
 Route::resource('patients', PatientController::class);
+
+Route::delete('medical_history', [PatientController::class, 'destroyMedicalHistories'])->name('medicalHistories.destroy');
+Route::delete('current_medication', [PatientController::class, 'destroyCurrentMedications'])->name('currentMedications.destroy');
+
 });

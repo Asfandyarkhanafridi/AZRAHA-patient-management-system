@@ -37,7 +37,7 @@
                             <button class="btn btn-primary ms-1" type="submit" name="filterPatientDetail"><i class="fa fa-search"></i></button>
                         </div>
                         <div class="col-auto">
-                            <button class="btn btn-info ms-1" type="button" onclick="removeFilterPatientDetail()"><i class="fa fa-trash"></i></button>
+                            <button class="btn btn-info ms-1" type="button" onclick="removeFilterPatientDetail()"><i class="fa fa-refresh"></i></button>
                         </div>
                     </div>
                 </div>

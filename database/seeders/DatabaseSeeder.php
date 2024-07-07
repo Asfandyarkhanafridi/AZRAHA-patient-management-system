@@ -23,7 +23,11 @@ class DatabaseSeeder extends Seeder
             UserTypeSeeder::class,
 		    UserSeeder::class,
 		    UserRoleSeeder::class,
-            PatientSeeder::class
+            PatientSeeder::class,
+            DoctorSeeder::class,
+            ContactInformationSeeder::class,
+            MedicalHistorySeeder::class,
+            CurrentMedicationSeeder::class
 	    ]);
     }
 }

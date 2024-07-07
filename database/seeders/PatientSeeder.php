@@ -22,8 +22,6 @@ class PatientSeeder extends Seeder
                 'country' => $faker->country,
                 'phone' => $faker->phoneNumber,
                 'email' => $faker->unique()->safeEmail,
-                'medical_history' => $faker->sentence,
-                'current_medications' => $faker->sentence,
                 'created_at' => now(),
                 'updated_at' => now(),
             ]);
