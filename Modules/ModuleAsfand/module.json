@@ -1,0 +1,11 @@
+{
+    "name": "ModuleAsfand",
+    "alias": "moduleasfand",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ModuleAsfand\\App\\Providers\\ModuleAsfandServiceProvider"
+    ],
+    "files": []
+}
